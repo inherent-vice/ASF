@@ -8,7 +8,7 @@ def create_dataframe(data_csv):
     return goog
 
 
-# ok
+# TODO: 함수 이름 길이 줄이기
 def augmented_dickey_fuller(goog):
     adf = ts.adfuller(goog["Adj Close"], 1)
     print(adf)
