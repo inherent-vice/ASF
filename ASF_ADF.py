@@ -14,6 +14,7 @@ def augmented_dickey_fuller(goog):
     print(adf)
 
 
+# 
 if __name__ == "__main__":
     data_csv = "C:/Devs/ASF/GOOG.csv"
     goog_df = create_dataframe(data_csv)
